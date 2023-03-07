@@ -45,7 +45,7 @@ public:
 			cout << my_stack[i] << "  ";
 	}
 };
-
+/*
 int main()
 {
 	int sw, item;
@@ -82,3 +82,4 @@ int main()
 		cout << endl;
 	}
 }
+*/
