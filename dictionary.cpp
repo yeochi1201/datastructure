@@ -49,10 +49,17 @@ public:
 
 	int find(T key) {
 		for (int idx = 0; idx <= top; idx++) {
-			if (keys[i] == key) {
-				cout << keys[i] << "   "<< values[i] << endl;
+			if (keys[idx] == key) {
+				cout << keys[idx] << "   "<< values[idx] << endl;
 				return idx;
 			}
+		}
+	}
+
+	K getvalue(T key) {
+		for (int idx = 0; idx <= top; idx++) {
+			if (keys[idx] == key)
+				return values[idx];
 		}
 	}
 };
