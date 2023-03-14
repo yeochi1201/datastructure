@@ -32,11 +32,11 @@ public:
 		}
 	}
 
-	int front() {
+	int show_front() {
 		return my_queue[front];
 	}
 
-	int back() {
+	int show_back() {
 		return my_queue[0];
 	}
 
